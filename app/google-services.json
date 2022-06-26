@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "27641741439",
+    "project_id": "medihelp-ab047",
+    "storage_bucket": "medihelp-ab047.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27641741439:android:6278d59911a49b3228bf4a",
+        "android_client_info": {
+          "package_name": "com.first.MediHelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27641741439-rb49ba8boqcvd9ccgti1jocdq7dtv64v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.first.MediHelp",
+            "certificate_hash": "a5bbbcfb47e58130750b9569ca837ff92673b497"
+          }
+        },
+        {
+          "client_id": "27641741439-l7vfnl32c1km1smic0hg9vlsa0krh01l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgUTG-cYI2JS2m8aoN9xdT6tSE-qXIeDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27641741439-l7vfnl32c1km1smic0hg9vlsa0krh01l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

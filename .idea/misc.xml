@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/drawable-v24/borders.xml" value="0.115" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.137" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/drawable/buttonsbackground.xml" value="0.1555" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/drawable/regselect.xml" value="0.1555" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/drawable/regunselect.xml" value="0.136" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/drawable/selector.xml" value="0.1555" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/activity_Login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/activity_home.xml" value="0.16631038905515177" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/activity_patient.xml" value="0.2" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/app_bar_patient.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/back_online_dialoug.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/check_internet_dialoug.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/content_patient.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/fragment_gallery.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/fragment_home.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/fragment_slideshow.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/layout/nav_header_patient.xml" value="0.2" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1515" />
+        <entry key="..\:/Users/puroh/AndroidStudioProjects/testHS10/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1515" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
