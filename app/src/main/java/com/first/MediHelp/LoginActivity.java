@@ -27,6 +27,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 // it is login activity
+// code
 public class LoginActivity extends AppCompatActivity {
     private TextView signUpButton, forgotButton;
     private Button loginBtn, temp ;
