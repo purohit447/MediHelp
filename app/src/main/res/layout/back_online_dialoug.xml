@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+        android:src="@drawable/back_online"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/backOnline"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-150dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/buttonsbackground"
+        android:text="Back Online!"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

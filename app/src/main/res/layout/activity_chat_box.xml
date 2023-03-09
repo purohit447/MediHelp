@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/base"
+    android:layout_height="match_parent"
+    tools:context=".chatBox">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chats"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/white"
+                android:textSize="33sp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                >
+
+                <ImageView
+                    android:id="@+id/serach"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_round_search_24"
+                    android:layout_marginStart="15dp">
+
+                </ImageView>
+
+                <EditText
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Find your doctor "
+                    android:layout_toEndOf="@+id/serach">
+
+                </EditText>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:layout_height="679dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Favourites"
+                    android:textColor="@color/base"
+                    android:textSize="23sp">
+
+                </TextView>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:gravity="center"
+                                android:text=" Doctor's \nName">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:gravity="center"
+                                android:text=" Doctor's \nName">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:gravity="center"
+                                android:text=" Doctor's \nName">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:gravity="center"
+                                android:text=" Doctor's \nName">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:gravity="center"
+                                android:text=" Doctor's \nName">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Messeges"
+                        android:textColor="@color/base"
+                        android:textSize="23sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Requests"
+                        android:textColor="@color/base"
+                        android:textSize="17sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="7dp"
+                                android:gravity="center"
+                                android:text=" Doctor's Name">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="125dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_baseline_photo_camera_24">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="7dp"
+                                android:gravity="center"
+                                android:text=" Doctor's Name">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="125dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_baseline_photo_camera_24">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="7dp"
+                                android:gravity="center"
+                                android:text=" Doctor's Name">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="125dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_baseline_photo_camera_24">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="7dp"
+                                android:gravity="center"
+                                android:text=" Doctor's Name">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="125dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_baseline_photo_camera_24">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="7dp"
+                                android:gravity="center"
+                                android:text=" Doctor's Name">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="125dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_baseline_photo_camera_24">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="7dp"
+                                android:gravity="center"
+                                android:text=" Doctor's Name">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="125dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_baseline_photo_camera_24">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/bd_green">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/ic_profile">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="7dp"
+                                android:gravity="center"
+                                android:text=" Doctor's Name">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="125dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_baseline_photo_camera_24">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

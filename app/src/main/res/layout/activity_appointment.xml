@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Appointments.AppointmentFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello, User !"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="25dp"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="145dp"
+                    android:background="@drawable/bd_green">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ic_profile">
+
+                    </ImageView>
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Progress"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="9dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/bg_purple">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/meter">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="100dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Jogging Hours"
+                            android:textColor="#8b008b"
+                            android:textSize="17sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Jpgging hours increased by 1 hour"
+                            android:textColor="#8b008b">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/db_skyblue">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/basket">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="100dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Healthy Diet"
+                            android:textColor="#003399"
+                            android:textSize="17sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New items added in your diet"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginStart="10dp"
+                            android:textColor="#003399">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/bd_green">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/dumbell">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="100dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Yoga / Exercises"
+                            android:textColor="#177245"
+                            android:textSize="17sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New yogas added to your plan"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginStart="10dp"
+                            android:textColor="#177245">
+
+                        </TextView>
+
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/db_pink">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/document">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="100dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Your Efficiency"
+                            android:textColor="#8b008b"
+                            android:textSize="17sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Your new Repots"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginStart="10dp"
+                            android:textColor="#8b008b">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday , March 7"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="17sp"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+               <ImageView
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginStart="100dp"
+                   android:src="@drawable/calendar">
+
+               </ImageView>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10:00 AM"
+                        android:textSize="13sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="9dp">
+
+                    </TextView>
+
+                    <RelativeLayout
+                        android:layout_width="270dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/bg_purple">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="9dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Meeting with Front end Developer"
+                            android:textColor="#8b008b"
+                            android:textSize="16sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:text="City Hospital"
+                            android:textColor="#8b008b">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="160dp"
+                            android:layout_marginTop="60dp"
+                            android:text="9:50 - 10:50 AM"
+                            android:textColor="#8b008b">
+
+                        </TextView>
+
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/time1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11:30 AM"
+                        android:textSize="13sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="9dp">
+
+                    </TextView>
+
+                    <RelativeLayout
+                        android:layout_width="270dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/db_skyblue">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="9dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Meeting with Front end Developer"
+                            android:textColor="#003399"
+                            android:textSize="16sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:text="City Hospital"
+                            android:textColor="#003399">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="160dp"
+                            android:layout_marginTop="60dp"
+                            android:text="11:00 - 11:50 AM"
+                            android:textColor="#003399">
+
+                        </TextView>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:30 AM"
+                        android:textSize="13sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="9dp">
+
+                    </TextView>
+
+                    <RelativeLayout
+                        android:layout_width="270dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/bd_green">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="9dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Meeting with Front end Developer"
+                            android:textColor="#177245"
+                            android:textSize="16sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:text="City Hospital"
+                            android:textColor="#177245">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="160dp"
+                            android:layout_marginTop="60dp"
+                            android:text="12:40 - 01:20 PM"
+                            android:textColor="#177245">
+
+                        </TextView>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11:30 AM"
+                        android:textSize="13sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="9dp">
+
+                    </TextView>
+
+                    <RelativeLayout
+                        android:layout_width="270dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/db_pink">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Meeting with Front end Developer"
+                            android:textSize="16sp"
+                            android:fontFamily="sans-serif-black"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="5dp"
+                            android:textColor="#8b008b">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:text="City Hospital"
+                            android:textColor="#8b008b">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="160dp"
+                            android:layout_marginTop="60dp"
+                            android:text="9:50 - 10:50 AM"
+                            android:textColor="#8b008b">
+
+                        </TextView>
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+            
+            
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                    <RelativeLayout
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/background_icon">
+
+                        <ImageView
+                            android:id="@+id/search"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="4dp"
+                            android:src="@drawable/ic_round_search_24">
+
+                        </ImageView>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@+id/search"
+                            android:maxLines="1">
+
+                        </EditText>
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/chat"
+                        android:layout_width="37dp"
+                        android:layout_height="37dp"
+                        android:layout_marginStart="35dp"
+                        android:onClick="record"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/ic_round_shopping_cart_24">
+
+                    </ImageView>
+
+
+
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/db_skyblue">
+
+                                <TextView
+                                    android:id="@+id/textdb"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:gravity="center"
+                                    android:text="Up to \n25% OFF"
+                                    android:textColor="#00008b"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="65dp"
+                                    android:layout_marginTop="35dp"
+                                    android:src="@drawable/meds">
+
+                                </ImageView>
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="13dp"
+                                android:text="Medicines"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/db_pink">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:gravity="center"
+                                    android:text="Up to \n70% OFF"
+                                    android:textColor="#aa336a"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                                <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="65dp"
+                                    android:layout_marginTop="15dp"
+                                    android:src="@drawable/chem">
+
+                                </ImageView>
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="13dp"
+                                android:text="Lab Tests"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/bd_green">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:gravity="center"
+                                    android:text="Up to \n50% OFF"
+                                    android:textColor="#023020"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_marginTop="35dp"
+                                    android:src="@drawable/hc">
+
+                                </ImageView>
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="13dp"
+                                android:text="Healthcare"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/db_grey">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:gravity="center"
+                                    android:text="  Upload  \nNow"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_marginTop="35dp"
+                                    android:src="@drawable/doc">
+
+                                </ImageView>
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="13dp"
+                                android:text="perscription"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/bg_purple">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:gravity="center"
+                                    android:text="Up to \n50% OFF"
+                                    android:textColor="#301834"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="13dp"
+                                android:text="Top\nProducts"
+                                android:textAlignment="center"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/db_skyblue">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="6dp"
+                                    android:layout_marginTop="7dp"
+                                    android:src="@drawable/doc">
+
+                                </ImageView>
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="13dp"
+                                android:text="Surgicare"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Especially For You :"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/base_color_dilogbox">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="20dp"
+                        android:paddingEnd="50dp"
+                        android:src="@drawable/jholachaap">
+
+                    </ImageView>
+
+
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Suggested for you :"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="40dp"
+                                android:background="@drawable/db_skyblue">
+
+                                <ImageView
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_marginStart="7dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/location">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="45dp"
+                                android:textColor="@color/black"
+                                android:text="Nearest \nhospital">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="50dp"
+                                android:background="@drawable/db_pink">
+
+                                <ImageView
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_marginStart="7dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/bed">
+
+                                </ImageView>
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="45dp"
+                                android:textColor="@color/black"
+                                android:text="Book a bed">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="50dp"
+                                android:background="@drawable/db_grey">
+
+                                <ImageView
+                                    android:layout_width="47dp"
+                                    android:layout_height="47dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="6dp"
+                                    android:src="@drawable/document">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="54dp"
+                                android:textColor="@color/black"
+                                android:text="Reports">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="40dp"
+                                android:background="@drawable/bg_purple">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="7dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/doctaar">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="45dp"
+                                android:textColor="@color/black"
+                                android:text="check up">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="50dp"
+
+                                android:background="@drawable/bd_green">
+
+                                <ImageView
+                                    android:layout_width="45dp"
+
+                                    android:layout_height="45dp"
+                                    android:layout_marginStart="7dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/food">
+
+                                </ImageView>
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="55dp"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:text="Health \nProducts">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="60dp"
+
+                                android:layout_height="60dp"
+                                android:layout_marginStart="50dp"
+                                android:background="@drawable/db_skyblue"
+                                tools:ignore="InvalidId">
+
+                                <ImageView
+                                    android:layout_width="47dp"
+                                    android:layout_height="47dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="6dp"
+                                    android:src="@drawable/information">
+
+                                </ImageView>
+
+
+
+                            </RelativeLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="54dp"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:text="Complete \nyour info">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
